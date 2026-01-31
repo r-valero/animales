@@ -1,0 +1,1897 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Archivo Extinción 2060 - Especies Perdidas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>🗺️ ARCHIVO EXTINCIÓN : 2060 🗺️</h1>
+      <p class="subtitle">Post-Extinction Archive · Classified</p>
+    </header>
+    <div class="container">
+      <div class="intro-text">
+        <strong>📜 Informe del Archivo, Año 2060</strong><br /><br />
+        Este archivo documenta cinco especies que desaparecieron en las últimas
+        cuatro décadas. Cada entrada contiene evidencia fotográfica histórica,
+        análisis de las causas de extinción y las consecuencias irreversibles en
+        los ecosistemas globales.
+        <strong
+          >Este registro sirve como testimonio de lo que perdimos y advertencia
+          para las especies que aún quedan.</strong
+        >
+      </div>
+      <div class="cards-grid">
+        <!-- PANGOLÍN -->
+        <div
+          class="species-card"
+          onclick="openModal('pangolin')"
+          data-biome="jungle-pangolin"
+        >
+          <div class="card-image-wrapper">
+            <img
+              alt="Pangolín"
+              class="card-image"
+              loading="lazy"
+              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/f0eb361f-7628-4a82-8d03-53d9d3d5773b"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Pangolín</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct"
+                  >Extinto en Estado Salvaje</span
+                >
+                <span class="badge badge-biome">Selvas tropicales</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="card-subtitle">Manis sp. · Ingeniero del suelo ausente</p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2048<br /><strong
+                >Causa principal: </strong
+              >Tráfico ilegal sostenido<br /><strong>Estado actual: </strong
+              >Extinto en Estado Salvaje
+            </p>
+          </div>
+        </div>
+        <!-- TIGRE DE SUMATRA -->
+        <div
+          class="species-card"
+          onclick="openModal('tiger')"
+          data-biome="jungle"
+        >
+          <div class="card-image-wrapper">
+            <img
+              alt="Tigre de Sumatra"
+              class="card-image"
+              loading="lazy"
+              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/1035e925-bfad-4c28-a523-e305bb01bdff"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Tigre de Sumatra</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct"
+                  >Extinto en Estado Salvaje</span
+                >
+                <span class="badge badge-biome">Selva Indonesia</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="card-subtitle">
+              Panthera tigris sumatrae · Depredador tope ausente
+            </p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2046<br /><strong
+                >Causa principal: </strong
+              >Fragmentación de selva crítica<br /><strong
+                >Estado actual: </strong
+              >Extinto en Estado Salvaje
+            </p>
+          </div>
+        </div>
+        <!-- ARRECIFE DE CORAL -->
+        <div
+          class="species-card"
+          onclick="openModal('coral')"
+          data-biome="reef"
+        >
+          <div class="card-image-wrapper">
+            <img
+              alt="Arrecife de Coral"
+              class="card-image"
+              loading="lazy"
+              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/ed884abf-42e9-4433-ae99-aee6a0944b3e"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Arrecife de Coral</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Colapso Funcional</span>
+                <span class="badge badge-biome">Océanos Tropicales</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="card-subtitle">
+              Scleractinia · Arquitectura del arrecife colapsada
+            </p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2051<br /><strong
+                >Causa principal: </strong
+              >Acidificación sostenida<br /><strong>Estado actual: </strong
+              >Colapso Funcional
+            </p>
+          </div>
+        </div>
+        <!-- BARBIE PAGODA -->
+        <div
+          class="species-card"
+          onclick="openModal('barbie')"
+          data-biome="forest"
+        >
+          <div class="card-image-wrapper">
+            <img
+              alt="Barbie Pagoda"
+              class="card-image"
+              loading="lazy"
+              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/a84bcd6a-fffd-40ef-9443-27ad7a98dc24"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Barbie Pagoda</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Extinción Local</span>
+                <span class="badge badge-biome">Bosque húmedo</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="card-subtitle">
+              Podoserpula miranda · Microhábitat fúngico ausente
+            </p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2053<br /><strong
+                >Causa principal: </strong
+              >Invasoras y perturbación<br /><strong>Estado actual: </strong
+              >Extinción Local
+            </p>
+          </div>
+        </div>
+        <!-- CÓNDOR ANDINO -->
+        <div
+          class="species-card"
+          onclick="openModal('condor')"
+          data-biome="mountain"
+        >
+          <div class="card-image-wrapper">
+            <img
+              alt="Cóndor Andino"
+              class="card-image"
+              loading="lazy"
+              src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/2c709a74-9d87-40b4-aa49-2397652a55f5"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Cóndor Andino</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Extinción Local</span>
+                <span class="badge badge-biome">Cordillera Andina</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <p class="card-subtitle">
+              Vultur gryphus · Sanitario de cumbres ausente
+            </p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2049<br /><strong
+                >Causa principal: </strong
+              >Intoxicación secundaria<br /><strong>Estado actual: </strong
+              >Extinción Local
+            </p>
+          </div>
+        </div>
+        <div
+          class="species-card"
+          onclick="openModal('vaquita')"
+          data-biome="reef"
+        >
+          <div class="card-image-wrapper">
+            <img
+              class="card-image"
+              src="https://i.ibb.co/KxCGVWxZ/Vaquita-Marina.png"
+              alt="Vaquita marina"
+              loading="lazy"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Vaquita marina</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct"
+                  >Extinto en Estado Salvaje</span
+                >
+                <span class="badge badge-biome">Golfo California</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle">
+              Phocoena sinus · Silencio en aguas someras
+            </p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2050<br />
+              <strong>Causa principal: </strong>Captura incidental
+              persistente<br />
+              <strong>Estado actual: </strong>Extinto en Estado Salvaje
+            </p>
+          </div>
+        </div>
+        <div
+          class="species-card"
+          onclick="openModal('abejas')"
+          data-biome="pollen"
+        >
+          <div class="card-image-wrapper">
+            <img
+              class="card-image"
+              src="https://i.ibb.co/xSPLgm68/abeja.png"
+              alt="Abejas (polinizadores)"
+              loading="lazy"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Abejas</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Colapso Funcional</span>
+                <span class="badge badge-biome">Agroecosistema</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle">
+              Apoidea spp. · Polinización interrumpida
+            </p>
+            <p class="card-description">
+              <strong>Año Colapso: </strong>2047<br />
+              <strong>Causa principal: </strong>Plaguicidas y pérdida floral<br />
+              <strong>Estado actual: </strong>Colapso Funcional
+            </p>
+          </div>
+        </div>
+        <div
+          class="species-card"
+          onclick="openModal('lince')"
+          data-biome="iberian"
+        >
+          <div class="card-image-wrapper">
+            <img
+              class="card-image"
+              src="https://i.ibb.co/VbgQqTj/lince.png"
+              alt="Lince ibérico"
+              loading="lazy"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Lince ibérico</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Extinción Local</span>
+                <span class="badge badge-biome">Mediterráneo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle">Lynx pardinus · Regulador ausente</p>
+            <p class="card-description">
+              <strong>Año de desaparición: </strong>2052<br />
+              <strong>Causa principal: </strong>Colapso de presas y hábitat<br />
+              <strong>Estado actual: </strong>Extinción Local
+            </p>
+          </div>
+        </div>
+        <!-- RANA DE AGUA DEL TITICACA -->
+        <div
+          class="species-card"
+          onclick="openModal('rana-titicaca')"
+          data-biome="high-altitude-lake"
+        >
+          <div class="card-image-wrapper">
+            <img
+              class="card-image"
+              src="https://i.ibb.co/VkycpWS/rana.png"
+              alt="Rana de Agua del Titicaca"
+              loading="lazy"
+            />
+            <div class="card-overlay">
+              <h2 class="card-title-main">Rana de Agua del Titicaca</h2>
+              <div class="card-badges">
+                <span class="badge badge-extinct">Extinción Local</span>
+                <span class="badge badge-biome">Lago Titicaca</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <p class="card-subtitle">
+              Telmatobius culeus · El lago que respira a través de su piel
+            </p>
+            <p class="card-description">
+              <strong>Año de colapso: </strong>2045-2050<br />
+              <strong>Causa principal: </strong>Contaminación y enfermedades
+              emergentes<br />
+              <strong>Estado actual: </strong>Extinción Local
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h2>⚔️ El Legado que Perdimos</h2>
+      <p>
+        En 2060, miramos atrás con la certeza de que pudimos haber actuado.
+        Estas cinco especies son solo una fracción de la biodiversidad que
+        desapareció entre 2020 y 2060. Este archivo existe para recordarnos que
+        cada extinción fue prevenible, y que el futuro de las especies restantes
+        depende de las decisiones que tomemos ahora.
+      </p>
+      <button class="btn-primary" onclick="openTeamModal()">
+        Conocer al Equipo
+      </button>
+    </div>
+    <footer>
+      <p>
+        <strong>Archivo Extinción 2060</strong> | Documentación Post-Extinción
+      </p>
+      <p>
+        Archivo clasificado compilado por el Equipo de Conservación
+        Retrospectiva
+      </p>
+      <p>🗺️ Basado en registros históricos 2020-2060 🗺️</p>
+    </footer>
+    <!-- MODALES DE ESPECIES -->
+    <!-- Modal Pangolín -->
+    <div
+      aria-labelledby="modal-title-pangolin"
+      aria-modal="true"
+      class="modal"
+      id="modal-pangolin"
+      role="dialog"
+      data-biome="jungle-pangolin"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('pangolin')"
+        >
+          ✕
+        </button>
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/f0eb361f-7628-4a82-8d03-53d9d3d5773b'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Pangolín"
+                class="modal-image"
+                src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/f0eb361f-7628-4a82-8d03-53d9d3d5773b"
+              />
+            </div>
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinto en Estado Salvaje</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2048</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Control de insectos</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">
+                  Plagas agrícolas recurrentes
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-pangolin">Pangolín</h2>
+              <p class="modal-scientific">
+                Manis sp. · Ingeniero del suelo ausente
+              </p>
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-JNG-101</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-11</span
+                >
+              </div>
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                CONFIDENCIAL
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2043–2048, se registró un colapso rápido por extracción
+                ilegal y pérdida de refugios reproductivos. Para 2060, los
+                sistemas donde era clave muestran brotes cíclicos de insectos y
+                degradación progresiva del suelo.<br /><br />Evidencia:
+                registros de decomisos y ausencia sostenida en monitoreos de
+                campo. Certeza del informe: Alta.
+              </p>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Tráfico ilegal → extracción constante de adultos reproductores
+                  → caída irreversible de población
+                </li>
+                <li>
+                  Fragmentación del hábitat → aislamiento y baja tasa de cría →
+                  desaparición local encadenada
+                </li>
+                <li>
+                  Débil aplicación de controles → persistencia de mercado
+                  clandestino → extinción en estado salvaje
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: aumento de insectos oportunistas y alteración de
+                  la estructura del suelo por pérdida de bioturbación
+                </li>
+                <li>
+                  Humano: incremento de daños agrícolas y dependencia de
+                  pesticidas para controlar brotes recurrentes
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de control natural de insectos
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca explosiones periódicas de plagas y estrés en
+                  vegetación joven
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en degradación del suelo y pérdidas agrícolas
+                  sostenidas
+                </p>
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Regular y perseguir de forma efectiva el comercio ilegal con
+                  trazabilidad y sanciones
+                </li>
+                <li>
+                  Restaurar conectividad del hábitat y reforzar vigilancia
+                  comunitaria y monitoreo continuo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Tigre -->
+    <div
+      aria-labelledby="modal-title-tiger"
+      aria-modal="true"
+      class="modal"
+      id="modal-tiger"
+      role="dialog"
+      data-biome="jungle"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('tiger')"
+        >
+          ✕
+        </button>
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/1035e925-bfad-4c28-a523-e305bb01bdff'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Tigre de Sumatra"
+                class="modal-image"
+                src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/1035e925-bfad-4c28-a523-e305bb01bdff"
+              />
+            </div>
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinto en Estado Salvaje</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2046</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Control trófico superior</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">Conflicto fauna-humano</div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-tiger">
+                Tigre de Sumatra
+              </h2>
+              <p class="modal-scientific">
+                Panthera tigris sumatrae · Depredador tope ausente
+              </p>
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-JNG-102</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-12</span
+                >
+              </div>
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                VERIFICADO
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2040–2046, se registró una pérdida acelerada de territorio
+                funcional por fragmentación y presión humana directa. Para 2060,
+                el sistema muestra desbalances tróficos y degradación de zonas
+                de regeneración forestal.<br /><br />Evidencia: series de
+                pérdida de cobertura y desaparición en censos de cámaras trampa.
+                Certeza del informe: Alta.
+              </p>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Deforestación → reducción de territorio y presas → colapso de
+                  poblaciones viables
+                </li>
+                <li>
+                  Fragmentación → aislamiento genético y aumento de mortalidad
+                  por conflicto → extirpaciones sucesivas
+                </li>
+                <li>
+                  Caza furtiva → eliminación de individuos clave → ruptura del
+                  equilibrio reproductivo
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: aumento de herbívoros/mesodepredadores y caída de
+                  regeneración en zonas sensibles
+                </li>
+                <li>
+                  Humano: más incursiones de fauna en cultivos y pérdida de
+                  ingresos asociados a conservación/ecoturismo
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de depredador tope regulador
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca crecimiento de poblaciones oportunistas y presión
+                  sobre vegetación joven
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en degradación del bosque y aumento de conflictos con
+                  comunidades locales
+                </p>
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Establecer corredores biológicos y detener la fragmentación
+                  mediante protección efectiva del territorio
+                </li>
+                <li>
+                  Monitorizar y reducir la caza furtiva con patrullas,
+                  tecnología y cooperación comunitaria
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Coral -->
+    <div
+      aria-labelledby="modal-title-coral"
+      aria-modal="true"
+      class="modal"
+      id="modal-coral"
+      role="dialog"
+      data-biome="reef"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('coral')"
+        >
+          ✕
+        </button>
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/ed884abf-42e9-4433-ae99-aee6a0944b3e'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Arrecife de Coral"
+                class="modal-image"
+                src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/ed884abf-42e9-4433-ae99-aee6a0944b3e"
+              />
+            </div>
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Colapso Funcional</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Colapso</div>
+                <div class="summary-card-value">2051</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Barrera costera</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">Daños por tormentas</div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-coral">
+                Arrecife de Coral
+              </h2>
+              <p class="modal-scientific">
+                Scleractinia · Arquitectura del arrecife colapsada
+              </p>
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-RFF-103</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-13</span
+                >
+              </div>
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                ARCHIVO RECUPERADO
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2047–2051, se registró una pérdida progresiva de
+                calcificación y eventos repetidos de mortalidad que redujeron la
+                estructura tridimensional. Para 2060, el sistema mantiene
+                presencia residual, pero sin función de refugio ni protección
+                costera a escala relevante.<br /><br />Evidencia: series de pH y
+                carbonatos, junto con monitoreos fotográficos de cobertura y
+                complejidad. Certeza del informe: Alta.
+              </p>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Acidificación oceánica → disminución de calcificación →
+                  colapso de estructura del arrecife
+                </li>
+                <li>
+                  Olas de calor marinas → estrés térmico repetido → mortalidad
+                  acumulada y pérdida de cobertura
+                </li>
+                <li>
+                  Presión local (contaminación/pesca) → reducción de resiliencia
+                  → incapacidad de recuperación tras eventos extremos
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: pérdida de refugio y cría para múltiples especies,
+                  con simplificación de la comunidad marina
+                </li>
+                <li>
+                  Humano: aumento de erosión y daños por temporales, junto con
+                  caída de pesquerías asociadas
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de estructura arrecifal funcional
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca pérdida de refugio y desplazamiento de especies
+                  dependientes
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en costas más vulnerables y reducción de recursos
+                  pesqueros
+                </p>
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Reducir emisiones y mitigar la acidificación mediante
+                  objetivos climáticos vinculantes
+                </li>
+                <li>
+                  Restaurar y proteger zonas de no pesca y calidad del agua con
+                  monitoreo continuo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Barbie Pagoda -->
+    <div
+      aria-labelledby="modal-title-barbie"
+      aria-modal="true"
+      class="modal"
+      id="modal-barbie"
+      role="dialog"
+      data-biome="forest"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('barbie')"
+        >
+          ✕
+        </button>
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/a84bcd6a-fffd-40ef-9443-27ad7a98dc24'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Barbie Pagoda"
+                class="modal-image"
+                src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/a84bcd6a-fffd-40ef-9443-27ad7a98dc24"
+              />
+            </div>
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinción Local</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2053</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Simbiosis micorrícica</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">Menor resiliencia forestal</div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-barbie">Barbie Pagoda</h2>
+              <p class="modal-scientific">
+                Podoserpula miranda · Microhábitat fúngico ausente
+              </p>
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-FNG-105</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-15</span
+                >
+              </div>
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                ARCHIVO RECUPERADO
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2049–2053, se registró una pérdida progresiva de
+                microhábitats estables por perturbación del suelo y expansión de
+                especies invasoras, con desaparición de sitios reproductivos.
+                Para 2060, la extinción local se asocia a reducción de
+                interacciones simbióticas y menor estabilidad del reciclaje de
+                nutrientes en el entorno afectado.<br /><br />Evidencia:
+                ausencia sostenida en muestreos estacionales y degradación
+                documentada del sustrato/hábitat específico. Certeza del
+                informe: Media.
+              </p>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Pisoteo y perturbación del suelo → destrucción del sustrato y
+                  micelio → pérdida de fructificación y colapso local
+                </li>
+                <li>
+                  Especies invasoras → competencia y alteración del
+                  microambiente → desplazamiento del hongo y desaparición
+                </li>
+                <li>
+                  Fragmentación del bosque → aislamiento de parches adecuados →
+                  recolonización fallida y extinción local
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: reducción de asociaciones fúngicas y menor
+                  eficiencia del reciclaje de nutrientes en el microhábitat
+                </li>
+                <li>
+                  Humano: disminución de resiliencia del bosque y mayor coste de
+                  restauración tras perturbaciones repetidas
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">Ausencia de simbiosis fúngica local</p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca menor reciclaje de nutrientes y estrés en
+                  regeneración vegetal
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en pérdida de estabilidad del microecosistema y
+                  recuperación más lenta del bosque
+                </p>
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Establecer protección estricta del microhábitat y control
+                  temprano de invasoras
+                </li>
+                <li>
+                  Monitorizar el sustrato y restaurar el suelo con limitación de
+                  accesos y manejo adaptativo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Cóndor -->
+    <div
+      aria-labelledby="modal-title-condor"
+      aria-modal="true"
+      class="modal"
+      id="modal-condor"
+      role="dialog"
+      data-biome="mountain"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('condor')"
+        >
+          ✕
+        </button>
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/2c709a74-9d87-40b4-aa49-2397652a55f5'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Cóndor Andino"
+                class="modal-image"
+                src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/2c709a74-9d87-40b4-aa49-2397652a55f5"
+              />
+            </div>
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinción Local</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2049</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Sanidad carroñera</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">Riesgo sanitario rural</div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-condor">Cóndor Andino</h2>
+              <p class="modal-scientific">
+                Vultur gryphus · Sanitario de cumbres ausente
+              </p>
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-MTN-104</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-14</span
+                >
+              </div>
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                CONFIDENCIAL
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2044–2049, se registró un descenso sostenido por
+                mortalidad no intencional vinculada a tóxicos y munición con
+                plomo, además de pérdida de áreas seguras de alimentación. Para
+                2060, la ausencia local se asocia a acumulación de carroña y
+                cambios en la red de carroñeros.<br /><br />Evidencia:
+                necropsias con presencia de tóxicos y series de avistamientos
+                con caída continua. Certeza del informe: Alta.
+              </p>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Plomo en munición → intoxicación crónica y aguda → mortalidad
+                  acumulada en adultos
+                </li>
+                <li>
+                  Cebos tóxicos → envenenamiento secundario → colapso de grupos
+                  reproductores
+                </li>
+                <li>
+                  Pérdida de refugios → menor éxito reproductivo → extinción
+                  local por baja reposición
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: menor retirada rápida de carroña y aumento de
+                  oportunidad para carroñeros generalistas
+                </li>
+                <li>
+                  Humano: incremento de riesgo sanitario en zonas rurales y
+                  mayor coste de gestión de residuos orgánicos
+                </li>
+              </ul>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de limpieza natural de carroña
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca acumulación local y cambios en la competencia
+                  entre carroñeros
+                </p>
+              </div>
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en mayor riesgo sanitario y alteraciones en la dinámica
+                  trófica de montaña
+                </p>
+              </div>
+            </div>
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Prohibir munición con plomo y controlar el uso de tóxicos con
+                  fiscalización efectiva
+                </li>
+                <li>
+                  Monitorizar poblaciones y asegurar puntos de alimentación
+                  seguros con gestión coordinada
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================
+     Modal Vaquita marina
+     ========================= -->
+    <div
+      aria-labelledby="modal-title-vaquita"
+      aria-modal="true"
+      class="modal"
+      id="modal-vaquita"
+      role="dialog"
+      data-biome="reef"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('vaquita')"
+        >
+          ✕
+        </button>
+
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen(
+                  'https://i.ibb.co/KxCGVWxZ/Vaquita-Marina.png'
+                )
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Vaquita marina"
+                class="modal-image"
+                src="https://i.ibb.co/KxCGVWxZ/Vaquita-Marina.png"
+              />
+            </div>
+
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinto en Estado Salvaje</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2050</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Indicador de salud marina</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">
+                  Crisis reputacional pesquera
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-vaquita">
+                Vaquita marina
+              </h2>
+              <p class="modal-scientific">
+                Phocoena sinus · Silencio en aguas someras
+              </p>
+
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-RFF-106</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-16</span
+                >
+              </div>
+
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                VERIFICADO
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2046–2050, se registró un descenso final por mortalidad
+                acumulada ligada a artes de pesca no selectivas. Para 2060, la
+                ausencia sostenida se asocia a cambios de presión sobre fauna
+                pequeña costera.<br /><br />
+                Evidencia: registros de avistamientos en caída y monitoreos
+                acústicos sin detección. Certeza del informe: Alta.
+              </p>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Captura incidental → mortalidad repetida de adultos → colapso
+                  poblacional irreversible
+                </li>
+                <li>
+                  Control insuficiente → persistencia de artes no selectivas →
+                  pérdida continua sin recuperación
+                </li>
+                <li>
+                  Degradación local → menor resiliencia ecológica → aceleración
+                  del punto de ruptura
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: pérdida de un indicador de equilibrio en aguas
+                  someras y reajuste de interacciones costeras
+                </li>
+                <li>
+                  Humano: presión regulatoria y pérdida de confianza en
+                  prácticas pesqueras de la zona
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Alteración del equilibrio ecológico en aguas someras
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca reequilibrio de poblaciones oportunistas en zonas
+                  someras
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en inestabilidad local y mayor presión sobre recursos
+                  costeros
+                </p>
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Prohibir artes no selectivas y aplicar fiscalización efectiva
+                  y sostenida
+                </li>
+                <li>
+                  Implementar alternativas tecnológicas y monitoreo continuo con
+                  cumplimiento verificable
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================
+     Modal Abejas
+     ========================= -->
+    <div
+      aria-labelledby="modal-title-abejas"
+      aria-modal="true"
+      class="modal"
+      id="modal-abejas"
+      role="dialog"
+      data-biome="pollen"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('abejas')"
+        >
+          ✕
+        </button>
+
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen('https://i.ibb.co/xSPLgm68/abeja.png')
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Abejas (polinizadores)"
+                class="modal-image"
+                src="https://i.ibb.co/xSPLgm68/abeja.png"
+              />
+            </div>
+
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Colapso Funcional</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Colapso</div>
+                <div class="summary-card-value">2047</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Polinización</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">
+                  Caída de rendimiento agrícola
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-abejas">Abejas</h2>
+              <p class="modal-scientific">
+                Apoidea spp. · Polinización interrumpida
+              </p>
+
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-FNG-107</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-17</span
+                >
+              </div>
+
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                CONFIDENCIAL
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2042–2047, se registró una pérdida funcional por
+                exposición crónica a químicos, reducción de flores y estrés
+                acumulado en colonias. Para 2060, la polinización natural se
+                mantiene parcial y fragmentada, sin capacidad de sostener ciclos
+                agrícolas estables.<br /><br />
+                Evidencia: colapsos recurrentes de colonias y reducción
+                sostenida de actividad en monitoreos. Certeza del informe:
+                Media.
+              </p>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Plaguicidas → afectación neurológica y desorientación → caída
+                  de supervivencia y productividad
+                </li>
+                <li>
+                  Pérdida de flores → escasez alimentaria continua →
+                  debilitamiento y colapso de colonias
+                </li>
+                <li>
+                  Fragmentación del paisaje → aislamiento y estrés → reducción
+                  de resiliencia y recuperación
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: reducción de reproducción vegetal y simplificación
+                  de comunidades florales
+                </li>
+                <li>
+                  Humano: caída de producción en cultivos dependientes y aumento
+                  de costes de polinización asistida
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de polinización estable a gran escala
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca menor reproducción de plantas y pérdida de
+                  alimento para otros grupos
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en caída de biodiversidad y presión directa sobre
+                  producción agrícola
+                </p>
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Regular químicos de alto impacto y proteger corredores
+                  florales funcionales
+                </li>
+                <li>
+                  Restaurar hábitats y fomentar agricultura regenerativa con
+                  monitoreo continuo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================
+     Modal Lince ibérico
+     ========================= -->
+    <div
+      aria-labelledby="modal-title-lince"
+      aria-modal="true"
+      class="modal"
+      id="modal-lince"
+      role="dialog"
+      data-biome="iberian"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('lince')"
+        >
+          ✕
+        </button>
+
+        <div class="modal-layout">
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="
+                openImageFullscreen('https://i.ibb.co/VbgQqTj/lince.png')
+              "
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Lince ibérico"
+                class="modal-image"
+                src="https://i.ibb.co/VbgQqTj/lince.png"
+              />
+            </div>
+
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinción Local</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año Desaparición</div>
+                <div class="summary-card-value">2052</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">Control de herbívoros</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">Desequilibrio cinegético</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-lince">Lince ibérico</h2>
+              <p class="modal-scientific">Lynx pardinus · Regulador ausente</p>
+
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-MTN-108</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-09-18</span
+                >
+              </div>
+
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                ARCHIVO RECUPERADO
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Informe Post-Extinción (2060)</h3>
+              <p class="section-text">
+                Entre 2048–2052, se registró una caída final por pérdida de
+                mosaicos de hábitat y reducción sostenida de presas, con
+                mortalidad asociada a infraestructuras y presión humana. Para
+                2060, la ausencia local se refleja en reajustes tróficos y
+                aumento de conflictos por desequilibrio de poblaciones.<br /><br />
+                Evidencia: descensos en censos y desaparición en redes de
+                seguimiento de campo. Certeza del informe: Alta.
+              </p>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Causas de su Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Fragmentación del hábitat → aislamiento y baja reproducción →
+                  extinción local por falta de reposición
+                </li>
+                <li>
+                  Colapso de presas → déficit energético continuo → caída de
+                  supervivencia y éxito reproductivo
+                </li>
+                <li>
+                  Mortalidad antrópica → pérdidas acumuladas en adultos →
+                  ruptura del equilibrio poblacional
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias tras la Extinción</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: aumento de poblaciones oportunistas y presión
+                  sobre regeneración vegetal en áreas sensibles
+                </li>
+                <li>
+                  Humano: mayor coste de gestión faunística y conflictos ligados
+                  a desequilibrios cinegéticos
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Ausencia de regulación por depredador especializado
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca crecimiento de poblaciones oportunistas y cambios
+                  en el uso del hábitat
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en degradación local y mayor fricción con actividades
+                  humanas
+                </p>
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Habría Evitado Esto?</h3>
+              <ul class="section-list">
+                <li>
+                  Establecer corredores y proteger mosaicos de hábitat con
+                  gestión efectiva
+                </li>
+                <li>
+                  Monitorizar presas y reducir mortalidad por infraestructuras
+                  con medidas verificables
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================
+     Modal Rana de Agua del Titicaca
+     ========================= -->
+    <div
+      aria-labelledby="modal-title-rana-titicaca"
+      aria-modal="true"
+      class="modal"
+      id="modal-rana-titicaca"
+      role="dialog"
+      data-biome="high-altitude-lake"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('rana-titicaca')"
+        >
+          ✕
+        </button>
+
+        <div class="modal-layout">
+          <!-- Columna izquierda -->
+          <div class="modal-left">
+            <div
+              class="modal-image-container"
+              onclick="openImageFullscreen('https://i.ibb.co/VkycpWS/rana.png')"
+              title="Click para ampliar imagen"
+            >
+              <img
+                alt="Rana de agua del Titicaca"
+                class="modal-image"
+                src="https://i.ibb.co/VkycpWS/rana.png"
+              />
+            </div>
+
+            <div class="summary-cards">
+              <div class="summary-card">
+                <div class="summary-card-label">Estado</div>
+                <div class="summary-card-value">Extinción Local</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Año de Colapso</div>
+                <div class="summary-card-value">Proyección 2045</div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Servicio Perdido</div>
+                <div class="summary-card-value">
+                  Indicador de calidad del agua
+                </div>
+              </div>
+              <div class="summary-card">
+                <div class="summary-card-label">Impacto Humano</div>
+                <div class="summary-card-value">
+                  Degradación del lago Titicaca
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna derecha -->
+          <div class="modal-right">
+            <div class="modal-header">
+              <h2 class="modal-title" id="modal-title-rana-titicaca">
+                Rana de Agua del Titicaca
+              </h2>
+              <p class="modal-scientific">
+                Telmatobius culeus · El lago que respira a través de su piel
+              </p>
+
+              <div class="archive-meta" aria-label="Metadatos de archivo">
+                <span class="archive-expid">EXP-2060-ALT-109</span>
+                <span class="archive-revision"
+                  >Última revisión: 2060-10-02</span
+                >
+              </div>
+
+              <div class="archive-stamp" aria-label="Sello de archivo">
+                VIGILANCIA ACTIVA
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Informe de Riesgo Crítico (2060)</h3>
+              <p class="section-text">
+                Entre 2035 y 2045 se registró un descenso severo de poblaciones
+                debido al deterioro progresivo de la calidad del agua,
+                introducción de patógenos y presión humana directa. Para 2060,
+                la especie sobrevive únicamente en enclaves muy localizados con
+                monitoreo constante.<br /><br />
+                Evidencia: censos subacuáticos, análisis de oxigenación y
+                registros sanitarios. Certeza del informe: Alta.
+              </p>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Causas del Declive</h3>
+              <ul class="section-list">
+                <li>
+                  Contaminación orgánica e industrial → reducción de oxígeno
+                  disuelto → estrés fisiológico crónico
+                </li>
+                <li>
+                  Enfermedades emergentes → alta mortalidad por baja diversidad
+                  genética → colapsos locales
+                </li>
+                <li>
+                  Extracción y comercio ilegal → reducción directa de individuos
+                  reproductores → pérdida de capacidad de recuperación
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Consecuencias Ecológicas</h3>
+              <ul class="section-list">
+                <li>
+                  Ecosistema: aumento de materia orgánica no controlada y
+                  pérdida de un bioindicador clave de salud del lago
+                </li>
+                <li>
+                  Humano: deterioro de recursos hídricos y mayor riesgo
+                  sanitario para comunidades ribereñas
+                </li>
+              </ul>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">Efecto Dominó en el Ecosistema</h3>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 1</div>
+                <p class="section-text">
+                  Disminución de la rana como regulador biológico acuático
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 2</div>
+                <p class="section-text">
+                  Esto provoca acumulación de materia orgánica y proliferación
+                  de microorganismos oportunistas
+                </p>
+              </div>
+
+              <div class="chain-step">
+                <div class="chain-number">PASO 3</div>
+                <p class="section-text">
+                  Deriva en pérdida de calidad del agua y aumento del impacto
+                  humano y ecológico en el lago
+                </p>
+              </div>
+            </div>
+
+            <div class="content-section">
+              <h3 class="section-title">¿Qué Podría Evitar su Extinción?</h3>
+              <ul class="section-list">
+                <li>
+                  Tratamiento efectivo de aguas residuales y control estricto de
+                  vertidos en la cuenca
+                </li>
+                <li>
+                  Programas de cría y reintroducción con protección legal real y
+                  monitoreo continuo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Equipo -->
+    <div
+      aria-labelledby="modal-title-team"
+      aria-modal="true"
+      class="modal"
+      id="modal-team"
+      role="dialog"
+    >
+      <div class="modal-content">
+        <button
+          aria-label="Cerrar modal"
+          class="modal-close"
+          onclick="closeModal('team')"
+        >
+          ✕
+        </button>
+        <div style="padding: 2.5rem">
+          <div class="modal-header">
+            <h2 class="modal-title" id="modal-title-team">
+              Equipo de Conservación Retrospectiva
+            </h2>
+            <p class="modal-scientific">Los Documentalistas del Archivo 2060</p>
+          </div>
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-image-wrapper">
+                <img
+                  alt="Raúl"
+                  class="team-image"
+                  loading="lazy"
+                  src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/2229f224-6652-4b4b-acce-94beaf895b64"
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="team-name">Raúl</h3>
+                <p class="team-role">Estudiante de ASIR</p>
+                <p class="team-bio">Radiologia/Informatica</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-image-wrapper">
+                <img
+                  alt="Sandra"
+                  class="team-image"
+                  loading="lazy"
+                  src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/7fbb0185-ebac-4332-93a5-36c36ff43763"
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="team-name">Sandra</h3>
+                <p class="team-role">Estudiante de ASIR</p>
+                <p class="team-bio">Farmacia/Informatica</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-image-wrapper">
+                <img
+                  alt="Diego"
+                  class="team-image"
+                  loading="lazy"
+                  src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/04b5e010-efa4-4672-9dd8-faf5d1ce6eda"
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="team-name">Diego</h3>
+                <p class="team-role">Estudiante de ASIR</p>
+                <p class="team-bio">Musica/Informatica</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-image-wrapper">
+                <img
+                  alt="Samuel"
+                  class="team-image"
+                  loading="lazy"
+                  src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/f8e7d735-cbeb-42f9-98ab-b4f867106971"
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="team-name">Samuel</h3>
+                <p class="team-role">Estudiante de ASIR</p>
+                <p class="team-bio">Futbol/Informatica</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-image-wrapper">
+                <img
+                  alt="Iván"
+                  class="team-image"
+                  loading="lazy"
+                  src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/4e1ede50-bef3-4fa6-8bbe-db6242e40c2d"
+                />
+              </div>
+              <div class="team-content">
+                <h3 class="team-name">Iván</h3>
+                <p class="team-role">Estudiante de ASIR</p>
+                <p class="team-bio">Deporte/Informatica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Imagen Ampliada -->
+    <div class="image-fullscreen-modal" id="image-fullscreen-modal">
+      <button
+        aria-label="Cerrar imagen"
+        class="modal-close"
+        onclick="closeImageFullscreen()"
+      >
+        ✕
+      </button>
+      <img alt="Imagen ampliada" src="" />
+    </div>
+  </body>
+</html>
